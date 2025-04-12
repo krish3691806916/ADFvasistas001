@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfvasistas001"
+		},
+		"snowflake_de_demo_password": {
+			"value": ""
+		},
+		"snowflake_de_demo_properties_typeProperties_database": {
+			"value": "DEMO_DB"
+		},
+		"snowflake_de_demo_properties_typeProperties_role": {
+			"value": "ACCOUNTADMIN"
+		}
+	}
+}
